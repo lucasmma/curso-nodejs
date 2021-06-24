@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/lucasmma/curso-nodejs/issues"
   },
-  "homepage": "https://github.com/lucasmma/curso-nodejs#readme"
+  "homepage": "https://github.com/lucasmma/curso-nodejs#readme",
+  "dependencies": {
+    "git-commit-msg-linter": "^3.2.6"
+  }
 }
