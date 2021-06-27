@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint-staged": "./node_modules/.bin/lint-staged",
-    "test": "./node_modules/.bin/jest --passWithNoTests",
+    "test": "./node_modules/.bin/jest --passWithNoTests --watch",
     "test:staged": "./node_modules/.bin/jest --passWithNoTests"
   },
   "repository": {
