@@ -4,8 +4,12 @@
   "description": "��#\u0000 \u0000c\u0000u\u0000r\u0000s\u0000o\u0000-\u0000n\u0000o\u0000d\u0000e\u0000j\u0000s\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/jest --passWithNoTests --watch",
-    "test:staged": "./node_modules/.bin/jest --passWithNoTests"
+    "test": "./node_modules/.bin/jest --passWithNoTests --silent --noStackTrace --runInBand",
+    "test:verbose": "./node_modules/.bin/jest --passWithNoTests --runInBand",
+    "test:unit": "npm test -- --watch -c jest-unit-config.js",
+    "test:integration": "npm test -- --watch -c jest-integration-config.js",
+    "test:staged": "npm test -- --findRelatedTests",
+    "test:ci": "npm test -- --coverage"
   },
   "repository": {
     "type": "git",
