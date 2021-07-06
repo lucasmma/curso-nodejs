@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/lucasmma/curso-nodejs#readme",
   "dependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "bcrypt": "^5.0.1",
     "git-commit-msg-linter": "^3.2.6",
     "validator": "^13.6.0"
   },
